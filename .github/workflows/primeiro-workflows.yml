@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-     - name: Imprime uma mensagem de boas-vindas
-       run: echo "Iniciando meu primeiro job!"
+     - name: Exibir RA e Nome
+       run: echo "6324064 - Riquelme!"
      - name: Mostra o diretório de trabalho
        run: pwd
      - name: Lista os arquivos no diretório home
-       run: ls ~ -a
+       run: "TF-ALE: ${{ github.repository }}"
