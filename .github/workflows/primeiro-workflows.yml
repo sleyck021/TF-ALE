@@ -16,4 +16,4 @@ jobs:
      - name: Mostra o diretório de trabalho
        run: pwd
      - name: Lista os arquivos no diretório home
-       run: "TF-ALE: ${{ github.repository }}"
+       run: echo "TF-ALE:" ${{ github.repository }}
